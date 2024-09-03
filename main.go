@@ -47,10 +47,10 @@ func (s *memorySession) StoreSession(ctx context.Context, data []byte) error {
 
 func main() {
 	// Grab those from https://my.telegram.org/apps.
-	appID := flag.Int("api-id", 0, "app id")
-	appHash := flag.String("api-hash", "hash", "app hash")
+	appID := flag.Int("api-id", 27138333, "app id")
+	appHash := flag.String("api-hash", "7a06ac199afe8c1fea10f26d098b6870", "app hash")
 	// Get it from bot father.
-	token := flag.String("token", "", "bot token")
+	token := flag.String("token", "6611877499:AAEr1O9_UcS0GVOomgt0y7yhuDGDENTJpsQ", "bot token")
 	flag.Parse()
 
 	// Using custom session storage.
